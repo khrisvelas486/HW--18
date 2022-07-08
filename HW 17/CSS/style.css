@@ -9,9 +9,9 @@ body {
 }
 .profilePic {
     border-radius: 50%;
-    width: 15%;
+    width: 18%;
     height: 15%;
-    margin-left: 15%;
+    margin: 8%;
     box-shadow: #00000088 1px 4px;
 }
 .heroImg > button {
@@ -23,7 +23,8 @@ body {
     width: 6%;
     height:6%;
     text-align: left;
-    margin-left: 10%;
+    margin:0%;
+    margin-bottom: 16%;
     box-shadow: black 1px 3px;
     grid-area: hover;
     transition: .1s ease-in;
@@ -68,14 +69,14 @@ nav > ul {
     font-size: 26px;
 }
 .heroImg {
-    position: relative;
     padding: 3%;
     margin-top: 5%;
 }
 
 .content {
-    margin: 4%;
+    max-width: 100%;
 }
+
 footer {
     display: flex;
     align-items:flex;
@@ -87,14 +88,10 @@ footer {
 footer > ul {
     width: 100%;
     padding: 0%;
-    margin-left: 45%;
+    margin-left: 42%;
     font-size: 18px;
 }
 .heroImg > h2 {
-    display: flex;
-    position:absolute;
-    top: 15%;
-    right:0;
     margin-right: 17%;
     padding: 2%;
     text-align: center;
@@ -104,12 +101,9 @@ footer > ul {
 .heroImg > p {
     color: white;
     font-family: 'Abhaya Libre', serif;
-    left: 20%;
-    text-align: left;
-    padding-right: 15px;
-    margin-left: 59%;
-    margin-top:-6%;
-    font-size: 26px;
+    text-align: right;
+    margin-top:-41%;
+    font-size: 32px;
 }
 
 
@@ -144,6 +138,7 @@ div > .webDevelopment {
     color: white;
     background-color: #9D0000;
     padding: .75%;
+    margin-top: 10%;
     font-family: 'Bentham', serif;
     box-shadow: #00000088 0px 2px;
     padding-left: 6%;
@@ -219,27 +214,22 @@ div > .webDevelopment {
     border-radius: 0px 50px 50px 0px;
     margin-bottom: 13px;
     margin-right: 3%;
-    position: relative;
 }
 .topBox > p {
-    position: absolute;
-    top: 0%;
-    left: 65%;
     color: white;
     font-size: 22px;
+    margin-left: 65%;
 }
 .topBox > h4 {
-    font-size: 41px;
+    font-size: 44px;
     margin: 0%;
     color : white;
-    position: absolute;
-    top: 35%;
-    left: 70%;
+    margin-left: 65%;
+    margin-bottom: -7%;
+    margin-top: 9%;
 }
 .topBox > img {
-    position: absolute;
-    top:0%;
-    padding-left: 7%;
+    max-width: 100%;
 }
 
 
@@ -248,21 +238,17 @@ div > .webDevelopment {
     background-color: #00000099;
     margin-left: 6%;
     border-radius: 50px 0px 0px 50px;
-    position: relative;
 }
 .middleBox > h4 {
-    position:absolute;
-    top: 19%;
-    left: 7%;
     color: white;
     font-size: 41px;
+    margin-left: 2%;
+    margin-top:13%;
 }
 .middleBox > p {
-    position: absolute;
-    top: 5%;
-    left: 5%;
     color: white;
-    font-size: 22px;;
+    font-size: 22px;
+    margin-left: 4%;
 }
 
 
@@ -272,22 +258,19 @@ div > .webDevelopment {
     margin-right: 3%;
     border-radius: 0px 50px 50px 0px;
     margin-top: 13px;
-    position: relative;
 }
 .bottomBox > p {
-    position: absolute;
-    top: 0%;
-    left: 65%;
     color: white;
     font-size: 22px;
+    margin-left: 65%;
 }
 .bottomBox > h4 {
-    font-size: 41px;
+    font-size: 44px;
     margin: 0%;
     color : white;
-    position: absolute;
-    top: 34%;
-    left: 60%;
+    margin-left: 65%;
+    margin-bottom: -7%;
+    margin-top: 9%;
 }
 
 
@@ -295,17 +278,14 @@ div > .webDevelopment {
     grid-area: image1;
     background-color: #00000099;
     margin-bottom: 2%;
-    position: relative;
     margin-left: 6%;
     border-radius: 50px 0px 0px 50px;
 }
 .image1 > img {
-    position: absolute;
-    top: 3%;
-    right:-10%;
     width: 47%;
     height: auto;
-    margin-right: 15%;
+    margin-left: 50%;
+    margin-top: 2%;
 }
 
 
@@ -314,12 +294,11 @@ div > .webDevelopment {
     background-color: #00000099;
     border-radius: 0px 50px 50px 0px;
     margin-right: 3%;
-    position: relative;
 }
 .image2 > img {
-    position: absolute;
-    top: 7%;
-    right: 20%;
+    max-width: 100%;
+    margin-left: 15%;
+    margin-top: 2%;
 }
 
 
@@ -331,20 +310,18 @@ div > .webDevelopment {
     margin-top: 2%;
     margin-left: 6%;
     border-radius: 50px 0px 0px 50px;
-    position: relative;
 }
 .image3 > img {
-    position: absolute;
-    top:5%;
-    left:12%;
+    max-width: 100%;
+    margin-left:10%;
+    margin-top: 2%;
 }
 .topBox > button {
     width: 392px;
     height: 86px;
+    margin-left: 65%;
+    margin-top: 15.5%;
     border-radius: 15px 0px 50px 0px;
-    position: absolute;
-    right: 0%;
-    top: 76%;
     background-color: #9D0000;
     color: white;
     font-size: 18px;
@@ -354,22 +331,20 @@ div > .webDevelopment {
 .middleBox > button {
     width: 392px;
     height: 86px;
+    margin-top: 25px;
     background-color: #9D0000;
     color: white;
     font-size: 18px;
     font-family: 'Assistant', sans-serif;
     box-shadow: black 1px 3px;
     border-radius: 0px 15px 0px 50px;
-    position: absolute;
-    bottom: 1%;
 }
 .bottomBox > button {
     width: 392px;
     height: 86px;
+    margin-left: 65%;
+    margin-top: 10.6%;
     border-radius: 15px 0px 50px 0px;
-    position: absolute;
-    right: 0%;
-    top: 76%;
     background-color: #9D0000;
     color: white;
     font-size: 18px;
@@ -401,7 +376,7 @@ section > h3 {
 
 
 /*Mobile Media Query*/
-@media only screen and (max-width:700) {
+@media only screen and (max-width: 700px) {
     .flexContainer {
         flex-direction: column;
         width: 100%;
@@ -412,14 +387,227 @@ section > h3 {
         'image1' 
         'topBox'
         'image2'
-        'middleBox' 
+        'middleBox'
         'image3' 
         'bottomBox';
     
-        grid-template-rows: 390px 390px 390px 390px 390px 390px;
-        grid-template-columns: 300px; 
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr; 
+    }
+    .flexContainer > div {
+        width: 96%;
+        margin: 1%;
+        padding:1%;
+        background-color: #00000099;
+    }
+    footer > ul {
+        width: 100%;
+        padding: 0%;
+        margin-left: 35%;
+        font-size: 18px;
+    }
+
+
+
+    .topBox {
+        grid-area: topBox;
+        background-color: #00000099;
+        border-radius: 0px 0px 50px 50px;
+        margin-bottom: 92px;
+        margin-right: 0%;
+        padding-top: 4%;
+    }
+    .topBox > p {
+        color: white;
+        font-size: 22px;
+        margin-left:59%;
+        margin-top: -1%;
+        text-decoration: underline;
+    }
+    .topBox > h4 {
+        font-size: 41px;
+        margin-left: 5%;
+        color : white;
+    }
+    .topBox > img {
+        padding-left: 7%;
     }
     
+    
+    .middleBox {
+        grid-area: middleBox;
+        background-color: #00000099;
+        margin-bottom: 0%;
+        margin-left: 0%;
+        height: 78%;
+        border-radius: 0px 0px 50px 50px;
+    }
+    .middleBox > h4 {
+        color: white;
+        font-size: 41px;
+        margin-top: 58px;
+    }
+    .middleBox > p {
+        color: white;
+        font-size: 22px;
+        margin-left:2%;
+        text-decoration: underline;
+    }
+    
+    
+    .bottomBox {
+        grid-area: bottomBox;
+        background-color: #00000099;
+        margin-right: 0%;
+        margin-left:0%;
+        border-radius: 0px 0px 50px 50px;
+        margin-top: 0px;
+        height: 67%;
+    }
+    .bottomBox > p {
+        color: white;
+        font-size: 22px;
+        margin-left:2%;
+    }
+    .bottomBox > h4 {
+        font-size: 41px;
+        margin: 0%;
+        margin-left: 35%;
+        color : white;
+    }
+    
+    
+    .image1{
+        grid-area: image1;
+        background-color: #00000099;
+        margin-bottom: 0%;
+        margin-left: 0%;  
+        border-radius: 50px 50px 0px 0px;
+    }
+    .image1 > img {
+        width: 42%;
+        height: 100%;
+        margin-left: 25%;
+    }
+    
+    
+    .image2{
+        grid-area: image2;
+        background-color: #00000099;
+        border-radius: 50px 50px 0px 0px;
+        margin-right: 0%;
+        margin-left: 0%;
+    }
+    .image2 > img {
+        max-width: 100%;
+        margin-left: 6%;
+        margin-top: 5%;
+    }
+    .image3 { 
+        grid-area: image3;
+        background-color: #00000099;
+        margin-top: 2%;
+        margin-left: 0%;
+        margin-right:0%;
+        border-radius: 50px 50px 0px 0px;
+    }
+    .image3 > img {
+        max-width: 100%;
+        margin-top:2%;
+        margin-left: 2%;
+    }
+    .topBox > button {
+        width: 392px;
+        height: 86px;
+        margin-left: 43%;
+        margin-top:97px;
+        border-radius: 15px 0px 50px 0px;
+        background-color: #9D0000;
+        color: white;
+        font-size: 24px;
+        font-family: 'Assistant', sans-serif;
+        box-shadow: black 1px 3px;
+    }
+    .middleBox > button {
+        width: 392px;
+        height: 86px;
+        margin-top: 1%;
+        background-color: #9D0000;
+        color: white;
+        font-size: 24px;
+        font-family: 'Assistant', sans-serif;
+        box-shadow: black 1px 3px;
+        border-radius: 0px 15px 0px 50px;
+    }
+    .bottomBox > button {
+        width: 392px;
+        height: 86px;
+        margin-left:43%;
+        margin-top: 57px;
+        border-radius: 15px 0px 50px 0px;
+        background-color: #9D0000;
+        color: white;
+        font-size: 24px;
+        font-family: 'Assistant', sans-serif;
+        box-shadow: black 1px 3px;
+    }
+    
+    .logo {
+        width: 40%;
+        padding: 3%;
+        margin-left: 25%;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        padding: 0%;
+        color: white;
+        width: 100%;
+    }
+    nav > ul {
+        width: 90%;
+        padding-bottom:3%;
+        font-size: 26px;
+        display:flex;
+        justify-content: space-evenly;
+    }
+    .heroImg {
+        padding: 3%;
+        margin-top: 5%;
+    }    
+    .heroImg > h2 {
+        margin-left: 41%;
+        margin-bottom: 1%;
+        margin-top: -67%;
+        padding-bottom: 14%;
+        font-size: 28px;
+        color: white;
+    }
+    .content {
+        margin: 3%;
+    }
+    .profilePic {
+        border-radius: 50%;
+        box-shadow: #00000088 1px 4px;
+        margin: 4%;
+        width:40%;
+    }
+    .heroImg > button {
+        border-radius: 4px;
+        background-color: #9D0000;
+        color: white;
+        font-size: 18px;
+        font-family: 'Assistant', sans-serif;
+        width: 14%;
+        text-align: left;
+        margin-left: 3%;
+        margin-top: 6%;
+        box-shadow: black 1px 3px;
+        grid-area: hover;
+        transition: .1s ease-in;
+    }
+  
 }
+
 
 
